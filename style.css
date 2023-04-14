@@ -134,3 +134,69 @@ select {
     background: white;
     color: #ff6f47;
 }
+
+@media screen and (max-width: 678px){
+    form input,
+form button {
+    padding: 0.2rem;
+    font-size: 1.4rem;
+}
+select {
+    color: #ff6f47;
+    width: 5rem;
+    cursor: pointer;
+    padding: 0.6rem;
+}
+.select::after{
+    padding: 0.6rem;
+}
+.todo-list {
+    min-width: 60vw;
+}
+.todo {
+    font-size: 1rem;
+}
+.complete-btn,
+.trash-btn {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    
+}
+.complete-btn {
+    background-color: green;
+}
+}
+
+
+@media screen and (max-width: 414px) {
+    form input,
+form button {
+    padding: 0.2rem;
+    font-size: 1.3rem;
+}
+select {
+    color: #ff6f47;
+    width: 4rem;
+    cursor: pointer;
+    padding: 0.4rem;
+}
+.select::after{
+    padding: 0.3rem;
+}
+.todo {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+.complete-btn,
+.trash-btn {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    
+}
+.complete-btn {
+    background-color: green;
+}
+.todo-list {
+    min-width: 70vw;
+}
+}
